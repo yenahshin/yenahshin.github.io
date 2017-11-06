@@ -1,8 +1,177 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tumblr</title>
+        <title>STRUCTURE</title>
         <style>
+            
+            nav {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                position: relative;
+                background-color: black;
+            }
+            
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                align-content: center;
+                text-align: center;
+            }
+
+            nav ul li {
+                padding: 10px 15px 10px;
+                display: inline-block;
+                transition: all .3s ease;
+                background-color: black;
+            }
+
+            nav ul li:hover {
+                color: red;
+            }
+
+            nav ul li a {
+                color: white;
+                font-family: "Avenir";
+                text-decoration: none;
+                text-transform: uppercase; 
+                font-size: 10px;
+                letter-spacing: 1px;
+            }
+            
+            section{
+                margin: 50px;
+            }
+            
+            header{
+                font-family: "Avenir"
+                    ;
+                padding: 40px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            
+            .mainheader{
+                font-size: 20px;
+                letter-spacing: 20px;
+                padding-left:18px;
+                font-weight: bold;
+                
+            }
+            
+            .subheader{
+                padding: 8px;
+                font-size: 10px;
+                letter-spacing: 8.1px;
+                padding-left: 15px;
+            }
+            
+            section{
+                font-family: "Avenir";
+            }
+            
+            .date {
+                text-transform: uppercase;
+                font-size: 12px;
+                letter-spacing: 2px;
+                border: 1px solid black; 
+                padding: 14px;
+                text-align: left;
+                
+            }
+            .post1{
+                border: 1px solid black;
+                
+            }
+            .posttitle{
+                font-size: 26px;
+                font-weight: 800;
+                text-align: right;
+                padding-top: 14px;
+                padding-right: 14px;
+            }
+            
+            .posttext{
+                font-size: 14px;
+                font-weight: 300;
+                text-align: right;
+                padding-right: 14px;
+            }
+            
+            .readmore{
+                float: right;    
+            }
+            
+            .cube{
+                float: left;
+           
+            }
+            
         </style>
+        
     </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <!--Title-->
+            <div class="mainheader">
+                structure
+            </div>
+            <div class="subheader">
+                an architecture blog
+            </div>
+        </header>
+        <section>
+              <!--Post01-->
+            <div class="date">
+            September 14th, 2017 
+                <span class="readmore">
+                Read More
+                </span>
+            </div>
+        
+            <div class="post1">
+                <div class="posttitle">
+                Modern Architecture: Cubism
+                </div>
+                <div class="cube">
+                <img src="images/Australian_Centre_for_the_Moving_Image.jpg" alt="cube" height="300" float=left>
+                </div>
+                <div class="posttext">
+                <br/>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula dui ut libero tincidunt facilisis. Sed nunc lacus, feugiat quis bibendum sit amet, tempus eget lorem. Mauris egestas dolor sed orci tincidunt semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tempor purus, eget mollis arcu porttitor nec. Quisque...
+                </div>
+            </div>
+        </section>
+        <section>
+              <!--Post01-->
+            <div class="date">
+            September 01st, 2017 
+                <span class="readmore">
+                Read More
+                </span>
+            </div>
+        
+            <div class="post1">
+                <div class="posttitle">
+                Time-Lapse: Shanghai Tower
+                </div>
+                <div class="cube">
+                <img ssrc="images/Australian_Centre_for_the_Moving_Image.jpg" alt="cube" height="300" float=left>
+                </div>
+                <div class="posttext">
+                <br/>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula dui ut libero tincidunt facilisis. Sed nunc lacus, feugiat quis bibendum sit amet, tempus eget lorem. Mauris egestas dolor sed orci tincidunt semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tempor purus, eget mollis arcu porttitor nec. Quisque...
+                </div>
+            </div>
+        </section>  
+    </body>
 </html>
