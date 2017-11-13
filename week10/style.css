@@ -3,8 +3,8 @@
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700');
 /*
-font-family: 'Roboto Condensed', Impact, sans-serif;
 font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-family: 'Roboto Condensed', Impact, sans-serif;
 */
 
 /* Global Styles */
@@ -15,13 +15,13 @@ body {
     color: #666666;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', Impact, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-button{
+button {
     margin: 16px 0px;
     padding: 20px 36px;
     background-color: red;
@@ -60,7 +60,7 @@ header nav ul li {
     margin-right: 1em;
 }
 
-header nav ul li a{
+header nav ul li a {
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
@@ -97,7 +97,7 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-.hero-text h1{
+.hero-text h1 {
     font-size: 60px;
     line-height: 1em;
     color: #fff;
@@ -121,7 +121,7 @@ header nav ul li a:hover {
     float: left;
 }
 
-.feature-text h5{
+.feature-text h5 {
     color: #222;
     letter-spacing: 1px;
 }
@@ -133,7 +133,7 @@ header nav ul li a:hover {
     color: red;
 }
 
-.feature-image{
+.feature-image {
     width: 50%;
     float: right;
 }
@@ -164,9 +164,9 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-.prefooter-text button{
+.prefooter-text button {
     background: none;
-    border: 3px solid white;
+    border: 3px solid #fff;
 }
 
 .prefooter-qs {
@@ -194,14 +194,12 @@ footer {
     max-width: 1000px;
     margin: auto;
     padding: 50px;
-    
 }
 
-.footer address {
+footer address {
     color: #fff;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
-
 
 
 
