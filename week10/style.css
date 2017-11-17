@@ -84,6 +84,10 @@ header nav ul li a:hover {
     background-position: center center;
 }
 
+.hero-surfboards {
+    background-image: url('images/surfboards-banner.png');
+}
+
 .hero-text-container {
     max-width: 700px;
     margin: auto;
@@ -142,6 +146,26 @@ header nav ul li a:hover {
     width: 100%;
 }
 
+/* Surfboards Page */
+.surfboards-container {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid .surfboard {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.surfboard-image img {
+    width: 100%;
+}
 
 /* Prefooter + Footer */
 .prefooter {
@@ -156,6 +180,12 @@ header nav ul li a:hover {
     height: 300px;
     float: left;
     display: table;
+    opacity: 0.6;
+    transition: all .3s ease;
+}
+
+.prefooter-qs:hover, .prefooter-sr:hover {
+    opacity: 1;
 }
 
 .prefooter-text {
@@ -204,3 +234,49 @@ footer address {
 
 
 /* Responsive Styles */
+
+@media screen and (max-width:599px) {
+    header {
+        text-align: center;
+    }
+    header h1, header nav {
+        float: none;
+    }
+    .hero-text {
+        padding: 20px;
+    }
+    .feature-text, .feature-image {
+        padding: 0px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .feature-image {
+        margin-bottom: 50px;
+    }
+    .grid .surfboard {
+        width: 100%;
+        padding: 0;
+    }
+    .prefooter-sr, .prefooter-qs {
+        width: 100%;
+    }
+    .footer-container {
+        padding: 50px 20px 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
