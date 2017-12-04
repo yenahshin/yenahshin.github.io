@@ -1,0 +1,106 @@
+/* Yenah Shin Portfolio Site */
+
+/* Import Fonts (none) */
+
+/*
+font-family: 'Avenir', Arial, Helvetica, sans-serif;
+hover-color: #F9C6D7;
+*/
+
+/* Global Styles */
+body {
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    color: #000000;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    border-top: 7px solid #F9C6D7;
+    z-index: 99999;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header h1 img {
+    width: 300px;  
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 1em;
+}
+
+header nav ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+header nav ul li a:hover {
+    color: #F9C6D7;
+}
+
+
+/* Home Page Styles */
+.poster {
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+
+.poster img {
+    width: 100%;
+}
+
+/* Work Page Styles */
+.wrapper{font-size:0;}/*for inline block spacing*/
+body{font-family:Avenir}
+
+a{
+  display:inline-block;
+  width:25%;
+  position:relative;
+}
+
+a img {
+  height:100%; 
+  width:100%;
+  object-fit:cover;
+}
+
+a:before, a:after{
+  width:100%;
+  position:absolute;
+  opacity:0;
+  transition:opacity 0.3s ease;
+}
+
+a:before{
+  content:'';
+  height:100%;
+  background:rgba(150,150,150,0.8);
+}
+
+a:after{
+  content:attr(data-title);
+  font-size:18px;
+  top:calc(50% - 0.5em);
+  left:0;
+  text-align:center;
+  color:#fff;
+  text-transform:uppercase;
+    letter-spacing: 0.4em;
+}
+
+
+
