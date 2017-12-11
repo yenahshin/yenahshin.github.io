@@ -14,7 +14,7 @@ body {
     color: #000000;    
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
     font-family: 'Avenir', Arial, Helvetica, sans-serif;
     font-weight: 200;
     text-transform: uppercase;
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     width: 100%;
-    padding: 20px;
+    padding: 40px;
     border-top: 7px solid #F9C6D7;
     z-index: 99999;
     box-sizing: border-box;
@@ -30,7 +30,7 @@ header{
 }
 
 header h1 img {
-    width: 300px;  
+    width: 200px;  
 }
 
 header nav ul li {
@@ -63,13 +63,18 @@ header nav ul li a:hover {
 }
 
 /* Work Page Styles */
-.wrapper{font-size:0;}/*for inline block spacing*/
+.wrapper{
+    font-size:0;
+    margin: 20px;
+}
+/*for inline block spacing*/
 body{font-family:Avenir}
 
 a{
   display:inline-block;
   width:25%;
   position:relative;
+  
 }
 
 a img {
@@ -102,5 +107,15 @@ a:after{
     letter-spacing: 0.4em;
 }
 
+.wrapper img {
+    
+}
 
+/* About Page Styles */
+.about-container {
+   margin: 15px 100px;
+}
 
+.email {
+    margin: 20px 0px;
+}
