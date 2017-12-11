@@ -63,9 +63,10 @@ header nav ul li a:hover {
 }
 
 /* Work Page Styles */
-.wrapper{
+.wrapper {
     font-size:0;
     margin: 20px;
+    position:relative;
 }
 /*for inline block spacing*/
 body{font-family:Avenir}
@@ -80,7 +81,6 @@ a{
 a img {
   height:100%; 
   width:100%;
-  object-fit:cover;
 }
 
 a:before, a:after{
@@ -92,23 +92,23 @@ a:before, a:after{
 
 a:before{
   content:'';
-  height:100%;
+  height:94%;
   background:rgba(150,150,150,0.8);
 }
 
 a:after{
   content:attr(data-title);
-  font-size:18px;
-  top:calc(50% - 0.5em);
+  font-size:12px;
+  top:calc(25% - 0.5em);
   left:0;
   text-align:center;
   color:#fff;
   text-transform:uppercase;
-    letter-spacing: 0.4em;
+  letter-spacing: 0.4em;
 }
 
-.wrapper img {
-    
+.wrapper a:hover:before, a:hover:after{
+  opacity:1;
 }
 
 /* About Page Styles */
@@ -118,4 +118,10 @@ a:after{
 
 .email {
     margin: 20px 0px;
+}
+
+/* Video Page Styles */
+iframe{
+    display: block;
+    margin: 0 auto;
 }
